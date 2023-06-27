@@ -202,15 +202,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptMakerAI/Refresh
 DiscordLib:Notification("Notification", "Executed the Pls Steal Script, if it does not work, it is either patched or broken.", "Okay!")
 end)
 
-local btns5 = serv:Channel("R20")
-
-btns5:Label("The R20 Script,")
-btns5:Label("Mainly used for SB/SR.")
-btns5:Button("R20", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/cheeesynob39/R2O/main/LOADSTRING.lua"))() 
-DiscordLib:Notification("Notification", "R20 Executed, if it does not work, it is either patched or broken.", "Okay!")
-end)
-
 local SPEED = serv:Channel("Speed Hub X")
 
 SPEED:Label("List of Supported PC Executers,")
