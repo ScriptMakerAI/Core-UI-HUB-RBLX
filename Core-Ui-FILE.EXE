@@ -1,0 +1,243 @@
+local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
+
+local win = DiscordLib:Window("Core UI")
+
+local serv = win:Server("Main", "http://www.roblox.com/asset/?id=7539983773")
+
+local btns = serv:Channel("Universal Scripts")
+
+btns:Label("Basically Bypasses the chat.")
+btns:Button("Chat Draw", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptMakerAI/FE-Chat-Typer-RBLX/main/FE-Chat-Typer-RBLX.EXE",true))();
+DiscordLib:Notification("Notification", "The Chat Draw script has been executed, if it does not work, it is either patched or broken.", "Okay!")
+end)
+
+btns:Seperator()
+
+btns:Label("Finds a Small Server.")
+btns:Button("Small Server Finder", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptMakerAI/Small-Server-Finder-RBLX/main/Small-Server-Finder-RBLX.EXE",true))();
+DiscordLib:Notification("Notification", "You will now get teleported, if it does not work, it is either patched or broken.", "Okay!")
+end)
+
+btns:Seperator()
+
+btns:Label("Rejoins the server.")
+btns:Button("Rejoin", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptMakerAI/Rejoin-Server-RBLX/main/Rejoin-Server-RBLX.EXE",true))();
+DiscordLib:Notification("Notification", "You will now get teleported, if it does not work, it is either patched or broken.", "Okay!")
+end)
+
+btns:Seperator()
+
+btns:Label("Makes the fog go ADIOS.")
+btns:Button("No Fog", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptMakerAI/No-Fog-RBLX/main/No-Fog-RBLX",true))();
+DiscordLib:Notification("Notification", "The fog has been disabled, if its still there, it is either patched or broken.", "Okay!")
+end)
+
+btns:Seperator()
+
+btns:Label("Makes the game brighter.")
+btns:Button("Full Bright", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptMakerAI/Full-Bright-RBLX/main/Full-Bright-RBLX.EXE",true))();
+DiscordLib:Notification("Notification", "The game is now brighter, if it does not brighten up, it is either patched or broken.", "Okay!")
+end)
+
+btns:Seperator()
+
+btns:Label("Its a TP tool, nothing else.")
+btns:Button("Admin Tool", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptMakerAI/TP-Tool-RBLX/main/TP-Tool-RBLX.EXE",true))();
+DiscordLib:Notification("Notification", "You have been given the TP Tool, if it does not show up, it is either patched or broken.", "Okay!")
+end)
+
+btns:Seperator()
+
+btns:Label("This is Permanent, unless you rejoin the game or leave.")
+btns:Button("Infinite Jump", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/WweihvrM"))()
+DiscordLib:Notification("Notification", "Infinite Jump has been Enabled, if it does not work, it is either patched or broken.", "Okay!")
+end)
+
+btns:Seperator()
+
+btns:Label("Infinite Yield has Dark Dex inside of it.")
+btns:Button("Infinite Yield", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptMakerAI/Infinite-Store-RBLX/main/Infinite-Store-RBLX.EXE",true))();
+DiscordLib:Notification("Notification", "Infinite Yield has been executed, if it does not work, it is either patched or broken.", "Okay!")
+end)
+
+btns:Seperator()
+
+btns:Label("https://www.youtube.com/watch?v=PLnwUmbyZmc&t=91s")
+btns:Label("^^^ Tutorial on how to use ^^^")
+btns:Button("Simple Spy", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptMakerAI/SimpleSpyLUA-RBLX/main/SimpleSpyLUA.EXE",true))();
+DiscordLib:Notification("Notification", "Simple Spy has been executed, if it does not work, it is either patched or broken.", "Okay!")
+end)
+
+btns:Seperator()
+
+btns:Label("ESP Does not work.")
+btns:Button("Hitbox Extender", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptMakerAI/HitBox-Extender-UniversalScript-RBLX/main/Hitbox.LUA",true))();
+DiscordLib:Notification("Notification", "The Hitbox Extender has been executed, if it does not work, it is either patched or broken.", "Okay!")
+end)
+
+btns:Seperator()
+
+btns:Label("Hats are required.")
+btns:Button("Elephant Trunk", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptMakerAI/HitBox-Extender-UniversalScript-RBLX/main/Hitbox.LUA",true))();
+DiscordLib:Notification("Notification", "The Elephant Trunk has been executed, if it does not work, it is either patched or broken.", "Okay!")
+end)
+
+btns:Seperator()
+
+btns:Label("https://crishoux.github.io/OwlHub/games")
+btns:Label("^^^ Supported Games ^^^")
+btns:Button("Owl Hub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+DiscordLib:Notification("Notification", "Owl Hub has been executed, if it does not work, it is either patched or broken.", "Okay!")
+end)
+
+local sldrs = serv:Channel("Universal Humanoid")
+
+local sldr = sldrs:Slider("WalkSpeed", 16, 250, 0, function(s)
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+sldrs:Seperator()
+
+local sldr = sldrs:Slider("JumpPower", 50, 250, 0, function(s)
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+end)
+
+local btns2 = serv:Channel("Doors")
+
+btns2:Label("Can be used during a run and a Pre-Run")
+btns2:Button("Crucifix Spam Item", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptMakerAI/Crucifix-PreRunShop-Script-Doors/main/Crucifix.LUA.EXE",true))();
+DiscordLib:Notification("Notification", "Activated the Crucifix Spam item, if it does not work, it is either patched or broken.", "Okay!")
+end)
+
+btns2:Seperator()
+
+btns2:Label("The Updated Version of King Hub.")
+btns2:Button("Black King", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing/main/BlackKingMb"))()
+DiscordLib:Notification("Notification", "Executed the Black King Script, if it does not work, it is either patched or broken.", "Okay!")
+end)
+
+btns2:Seperator()
+
+btns2:Label("Can be used during a run and a Pre-Run")
+btns2:Button("Devil's Vitamins", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptMakerAI/Custom-Vitamins-RBLX/main/Custom-Vitamins-RBLX.EXE",true))();
+DiscordLib:Notification("Notification", "Executed the Doors Hub Script, if it does not work, it is either patched or broken.", "Okay!")
+end)
+
+local btns3 = serv:Channel("Double Down")
+
+btns3:Label("Makes the cups Visible.")
+btns3:Button("Visible Cups", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptMakerAI/Visible-Cups-RBLX/main/Visible-Cups-RBLX",true))();
+DiscordLib:Notification("Notification", "Executed the Pls Steal Script, if it does not work, it is either patched or broken.", "Okay!")
+end)
+
+btns3:Seperator()
+
+btns3:Label("Makes the 1st Cup invisible.")
+btns3:Button("Invisible Cup 1", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptMakerAI/Invisible-Cup-1-RBLX/main/Invisible-Cup-1-RBLX.EXE",true))();
+DiscordLib:Notification("Notification", "Executed the Pls Steal Script, if it does not work, it is either patched or broken.", "Okay!")
+end)
+
+btns3:Seperator()
+
+btns3:Label("Makes the 2nd Cup invisible.")
+btns3:Button("Invisible Cup 2", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptMakerAI/Invisible-Cup-2-RBLX/main/Invisible-Cup-2-RBLX.EXE",true))();
+DiscordLib:Notification("Notification", "Executed the Pls Steal Script, if it does not work, it is either patched or broken.", "Okay!")
+end)
+
+btns3:Seperator()
+
+btns3:Label("Makes the 3rd Cup invisible.")
+btns3:Button("Invisible Cup 3", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptMakerAI/Invisible-Cup-3-RBLX/main/Invisible-Cup-3-RBLX.EXE",true))();
+DiscordLib:Notification("Notification", "Executed the Pls Steal Script, if it does not work, it is either patched or broken.", "Okay!")
+end)
+
+btns3:Seperator()
+
+btns3:Label("Makes the 4th Cup invisible.")
+btns3:Button("Invisible Cup 4", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptMakerAI/Invisible-Cup-4-RBLX/main/Invisible-Cup-4-RBLX.EXE",true))();
+DiscordLib:Notification("Notification", "Executed the Pls Steal Script, if it does not work, it is either patched or broken.", "Okay!")
+end)
+
+btns3:Seperator()
+
+btns3:Label("Makes the 5th Cup invisible.")
+btns3:Button("Invisible Cup 5", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptMakerAI/Invisible-Cup-5-RBLX/main/Invisible-Cup-5-RBLX.EXE",true))();
+DiscordLib:Notification("Notification", "Executed the Pls Steal Script, if it does not work, it is either patched or broken.", "Okay!")
+end)
+
+local btns4 = serv:Channel("Kaiju Paradise")
+
+btns4:Label("ESP The NC Goggles during BO")
+btns4:Button("NC Goggles ESP", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptMakerAI/GogglesEspForKP/main/KpGoggleESP",true))();
+DiscordLib:Notification("Notification", "Executed the Pls Steal Script, if it does not work, it is either patched or broken.", "Okay!")
+end)
+
+btns4:Seperator()
+
+btns4:Label("Why should I tell you how it works?")
+btns4:Button("Refresh Character", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptMakerAI/Refresh-Character-KP-RBLX/main/Refresh-Character-KP-RBLX.EXE",true))();
+DiscordLib:Notification("Notification", "Executed the Pls Steal Script, if it does not work, it is either patched or broken.", "Okay!")
+end)
+
+local btns5 = serv:Channel("R20")
+
+btns5:Label("The R20 Script,")
+btns5:Label("Mainly used for SB/SR.")
+btns5:Button("R20", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/cheeesynob39/R2O/main/LOADSTRING.lua"))() 
+DiscordLib:Notification("Notification", "R20 Executed, if it does not work, it is either patched or broken.", "Okay!")
+end)
+
+btns5:Seperator()
+
+btns5:Label("Why should I tell you how it works?")
+btns5:Button("Get All Gamepasses", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/cheeesynob39/R2O/main/ALLGPASS.lua"))()
+DiscordLib:Notification("Notification", "R20 Executed, if it does not work, it is either patched or broken.", "Okay!")
+end)
+
+local SPEED = serv:Channel("Speed Hub X")
+
+SPEED:Label("List of Supported PC Executers,")
+SPEED:Label("Mobile Executers,")
+SPEED:Label("And Games:")
+SPEED:Label("https://tinyurl.com/3vb9ssnk")
+SPEED:Button("Speed Hub X", function()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ahmadsgamer2/Speed-Hub-X/main/SpeedHubX"))()
+DiscordLib:Notification("Notification", "R20 Executed, if it does not work, it is either patched or broken.", "Okay!")
+end)
+
+local lbls = serv:Channel("Credits")
+
+lbls:Label("Script Made By CoreOG.")
+lbls:Label("With the help of NotAbbleIsHere and TigerShark.")
+
+lbls:Seperator()
+
+lbls:Label("DM This user about any Bugs, Suggestions, etc.")
+lbls:Label("AbbleIsHereForReal#1748")
+
+print("Script Executed.")
