@@ -202,15 +202,13 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptMakerAI/Refresh
 DiscordLib:Notification("Notification", "Executed the Pls Steal Script, if it does not work, it is either patched or broken.", "Okay!")
 end)
 
-local SPEED = serv:Channel("Speed Hub X")
+local btns5 = serv:Channel("Blox Fruits")
 
-SPEED:Label("List of Supported PC Executers,")
-SPEED:Label("Mobile Executers,")
-SPEED:Label("And Games:")
-SPEED:Label("https://tinyurl.com/3vb9ssnk")
-SPEED:Button("Speed Hub X", function()
-loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ahmadsgamer2/Speed-Hub-X/main/SpeedHubX"))()
-DiscordLib:Notification("Notification", "R20 Executed, if it does not work, it is either patched or broken.", "Okay!")
+btns5:Label("Why should I tell you how it works?")
+btns5:Label("NOTE: It server-hops.")
+btns5:Button("Chest Auto-Farm", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptMakerAI/AutoFarmChest-BloxFruits-RBLX/main/FILE.EXE",true))();
+DiscordLib:Notification("Notification", "Executed the Chest Auto-Farm, if it does not work, it is either patched or broken.", "Okay!")
 end)
 
 local lbls = serv:Channel("Credits")
